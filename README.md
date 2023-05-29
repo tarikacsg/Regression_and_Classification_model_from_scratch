@@ -29,7 +29,7 @@ This repository contains Python implementations of various operations commonly u
 
 ## Regression Model Training
 
-In addition to the implementation of these operations, this repository provides an example of training a regression model using the Boston Housing Pricing dataset from scikit-learn. The implementation includes a stochastic gradient descent (SGD) function for training the model.
+In addition to the implementation of these operations, this repository provides an example of training a regression model using the **Boston Housing Pricing dataset** from scikit-learn. The implementation includes a stochastic gradient descent (SGD) function for training the model.
 
 ### Matrix Multiplication Layer--> Bias Addition Layer--> MSE Layer
 
@@ -43,7 +43,7 @@ To train the regression model, follow these steps:
 
 ## Multi-Class Classifier
 
-Furthermore, this repository demonstrates the creation of a multi-class classifier using the Iris dataset from scikit-learn. 
+Furthermore, this repository demonstrates the creation of a multi-class classifier using the **Iris dataset** from scikit-learn. 
 
 ### Matrix Multiplication Layer--> Bias Addition Layer--> Softmax Layer--> Cross Entropy Layer
 
