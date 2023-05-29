@@ -12,7 +12,7 @@ This repository contains Python implementations of various operations commonly u
    - Supports both forward and backward pass calculations.
    
 3. Mean Squared Loss Layer:
-   - Calculates the mean squared loss between the predicted values and the ground truth.
+   - Calculates the mean squared loss between the predicted values and the actual values.
    - Supports both forward and backward pass calculations.
 
 4. Softmax Layer:
@@ -31,17 +31,21 @@ This repository contains Python implementations of various operations commonly u
 
 In addition to the implementation of these operations, this repository provides an example of training a regression model using the Boston Housing Pricing dataset from scikit-learn. The implementation includes a stochastic gradient descent (SGD) function for training the model.
 
+### Matrix Multiplication Layer--> Bias Addition Layer--> MSE Layer
+
 To train the regression model, follow these steps:
 
 1. Load the Boston Housing Pricing dataset using the `sklearn.datasets.load_boston()` function.
 2. Preprocess the dataset as needed (e.g., normalization, splitting into training and testing sets).
 3. Initialize the necessary neural network layers and set their parameters.
 4. Use the implemented SGD function to train the model.
-5. Evaluate the trained model using appropriate metrics and visualize the results if desired.
+5. Evaluate the trained model using appropriate metrics and visualize the results.
 
 ## Multi-Class Classifier
 
-Furthermore, this repository demonstrates the creation of a multi-class classifier using the Iris dataset from scikit-learn. The implementation utilizes the operations implemented above, specifically the Cross Entropy Loss and Softmax layers.
+Furthermore, this repository demonstrates the creation of a multi-class classifier using the Iris dataset from scikit-learn. 
+
+### Matrix Multiplication Layer--> Bias Addition Layer--> Softmax Layer--> Cross Entropy Layer
 
 To create the multi-class classifier, follow these steps:
 
@@ -49,7 +53,7 @@ To create the multi-class classifier, follow these steps:
 2. Preprocess the dataset as needed (e.g., normalization, splitting into training and testing sets).
 3. Initialize the necessary neural network layers and set their parameters.
 4. Train the classifier using the implemented SGD function.
-5. Evaluate the trained classifier using appropriate metrics and visualize the results if desired.
+5. Evaluate the trained classifier using appropriate metrics and visualize the results.
 
-Please refer to the code in this repository for detailed implementations and usage examples. Feel free to explore and modify the code to suit your specific needs.
+
 
